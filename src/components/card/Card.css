@@ -1,0 +1,40 @@
+.card-home {
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+  min-height: 12rem;
+  padding: 0.7rem;
+}
+.card-home:not(:first-child) {
+  margin-left: 0.625rem;
+}
+.card-home-img-link {
+  text-align: center;
+}
+.card-home-img-top {
+  height: 5rem;
+  width: 5rem !important;
+}
+.card-home-img-top.loft {
+  width: 3rem !important;
+}
+.card-home-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 10px;
+}
+.card-home-body-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+.card-home-body-location {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card-home-body .card-text {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,12 @@
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar-nav-links {
+    display: flex;
+    flex-direction: row !important;
+}
+.navbar-nav-controls {
+    display: flex;
+    align-items: center;
+}

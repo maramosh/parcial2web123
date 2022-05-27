@@ -1,0 +1,48 @@
+.card-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  min-height: 12rem;
+  padding: 0.7rem;
+}
+
+.card-room:not(:first-child) {
+  margin-left: 0.625rem;
+}
+
+.card-room-img-link {
+  text-align: center;
+}
+
+.card-room-img-top {
+  height: 5rem;
+  width: 5rem !important;
+}
+
+.card-room-img-top.loft {
+  width: 3rem !important;
+}
+
+.card-room-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+}
+
+.card-room-body-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.card-room-body-location {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card-room-body .card-text {
+  font-size: 0.8rem;
+}
